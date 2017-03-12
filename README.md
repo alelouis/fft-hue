@@ -1,2 +1,3 @@
 # fft-hue
-Minimal "react-to-music" Philips Hue script
+
+Python script based on Fast Fourier Transform to dynamically animate your Philips Hue lights.
