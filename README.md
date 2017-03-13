@@ -6,10 +6,10 @@ Python script based on Fast Fourier Transform to dynamically animate your Philip
 1. Install dependencies `pip install requests pyaudio numpy`
 2. Create an authenticated user for your Hue Bridge : [Philips' tutorial](https://www.developers.meethue.com/documentation/getting-started)
 3. Add your devices/lights following this synthax (changing `/lights/1/state`)
-```Python
-r_1 = requests.put('http://' + hue_bridge_ip + '/api/' + user_id 
-+'/lights/1/state', data='{"bri": ' + str(bri) +', "transitiontime" : 1, "hue": ' + hue +'}')
-```
+  ```Python
+  r_1 = requests.put('http://' + hue_bridge_ip + '/api/' + user_id 
+  +'/lights/1/state', data='{"bri": ' + str(bri) +', "transitiontime" : 1, "hue": ' + hue +'}')
+  ```
 4. Run script `python fft_hue.py`
 5. Make some noises
 ***
