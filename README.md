@@ -1,7 +1,7 @@
 # fft-hue
 
 Python script based on Fast Fourier Transform to dynamically animate your Philips Hue lights.
-
+***
 ### How-to
 1. Install dependencies `pip install requests pyaudio numpy`
 2. Create an authenticated user for your Hue Bridge : [Philips' tutorial](https://www.developers.meethue.com/documentation/getting-started)
@@ -22,4 +22,4 @@ Modify `input_device_index` to choose the audio device streamed. Open a Python s
 * [requests](http://docs.python-requests.org/en/master/) : HTTP Library *(send requests to Hue Bridge)*
 * [pyaudio](https://people.csail.mit.edu/hubert/pyaudio/) : Audio Library *(open audio streams)*
 * [numpy](http://www.numpy.org/) : Scientific Library *(fft and data manipulation)*
-***
+
